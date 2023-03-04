@@ -44,8 +44,9 @@ header .box-header .box-navigation {
 body {
   text-align: center;
   margin: auto;
+  font-family: 'Poppins', sans-serif;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   body {
     max-width: 500px;
   }
@@ -88,7 +89,8 @@ img {
   justify-content: center;
   color: #fff;
 }
-.page-content .row-container h6 {
+#page-content .row-container h6 {
+  font-size: 20px;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
